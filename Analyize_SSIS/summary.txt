@@ -1,0 +1,1440 @@
+SSIS Package Analysis Summary
+Generated on: 2025-02-09 11:02:05
+============================================================
+
+Analyzing package: ARD_DIMENSION
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 2
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: ARD_FACT
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 2
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: ARD_LANDING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 2
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: ARD_MASTER
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 5
+Microsoft.ExecutePackageTask: 4
+STOCK:SEQUENCE: 1
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: ARD_OPERA_DIMENSION
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 21
+STOCK:SEQUENCE: 5
+Microsoft.ExpressionTask: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.DerivedColumn: 39
+Microsoft.OLEDBDestination: 39
+Microsoft.OLEDBSource: 39
+Microsoft.Lookup: 21
+
+
+
+Analyzing package: ARD_OPERA_FACT
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 9
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.Lookup: 71
+Microsoft.DerivedColumn: 15
+Microsoft.OLEDBDestination: 9
+Microsoft.OLEDBSource: 9
+Microsoft.Aggregate: 1
+
+
+
+Analyzing package: ARD_OPERA_LANDING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.TransferSqlServerObjectsTask: 3
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.Pipeline: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.DerivedColumn: 1
+Microsoft.OLEDBDestination: 1
+Microsoft.OLEDBSource: 1
+
+
+
+Analyzing package: ARD_OPERA_STAGING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 48
+STOCK:SEQUENCE: 10
+Microsoft.ExecuteSQLTask: 10
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.DerivedColumn: 48
+Microsoft.OLEDBDestination: 48
+Microsoft.OLEDBSource: 48
+Microsoft.Lookup: 8
+
+
+
+Analyzing package: ARD_PRIME_DIMENSION
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 13
+STOCK:SEQUENCE: 3
+Microsoft.ExpressionTask: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.Lookup: 55
+Microsoft.DerivedColumn: 26
+Microsoft.OLEDBSource: 25
+Microsoft.OLEDBDestination: 24
+Microsoft.UnionAll: 1
+
+
+
+Analyzing package: ARD_PRIME_FACT
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 8
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.Lookup: 75
+Microsoft.DerivedColumn: 16
+Microsoft.OLEDBSource: 16
+Microsoft.OLEDBDestination: 8
+Microsoft.MergeJoin: 5
+Microsoft.Sort: 2
+Microsoft.UnionAll: 2
+Microsoft.UnPivot: 1
+
+
+
+Analyzing package: ARD_PRIME_LANDING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 2
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+Microsoft.TransferSqlServerObjectsTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.DerivedColumn: 2
+Microsoft.OLEDBDestination: 2
+Microsoft.OLEDBSource: 2
+
+
+
+Analyzing package: ARD_PRIME_STAGING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 61
+STOCK:SEQUENCE: 5
+Microsoft.ExecuteSQLTask: 5
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 65
+Microsoft.DerivedColumn: 61
+Microsoft.OLEDBDestination: 61
+Microsoft.Lookup: 18
+Microsoft.MergeJoin: 5
+Microsoft.Sort: 3
+Microsoft.UnPivot: 2
+Microsoft.ConditionalSplit: 1
+Microsoft.Multicast: 1
+
+
+
+Analyzing package: ARD_STAGING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 2
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: CCEM_CSP_ArcGIS
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 9
+Microsoft.ExecuteSQLTask: 2
+STOCK:SEQUENCE: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 9
+Microsoft.ManagedComponentHost: 6
+Microsoft.DerivedColumn: 6
+Microsoft.OLEDBSource: 3
+
+
+
+Analyzing package: CCEM_Dimension
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 50
+STOCK:SEQUENCE: 17
+Microsoft.Pipeline: 17
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 17
+Microsoft.OLEDBSource: 17
+Microsoft.Lookup: 16
+Microsoft.DataConvert: 1
+
+
+
+Analyzing package: CCEM_EMRGNCY_CRISIS_LANDING_DAILY_REFRESH
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 3
+Microsoft.ExecutePackageTask: 1
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.ManagedComponentHost: 3
+Microsoft.DerivedColumn: 3
+Microsoft.OLEDBDestination: 3
+
+
+
+Analyzing package: CCEM_EMRGNCY_CRISIS_LANDING_HOURLY_REFRESH
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 6
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.DerivedColumn: 6
+Microsoft.ManagedComponentHost: 6
+Microsoft.OLEDBDestination: 6
+
+
+
+Analyzing package: CCEM_EMRGNCY_CRISIS_Landing
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 18
+Microsoft.ExecuteSQLTask: 1
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.ManagedComponentHost: 18
+Microsoft.DerivedColumn: 18
+Microsoft.OLEDBDestination: 18
+
+
+
+Analyzing package: CCEM_EMRGNCY_CRISIS_Landing_SEQ
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 22
+Microsoft.ExecuteSQLTask: 1
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.ManagedComponentHost: 22
+Microsoft.DerivedColumn: 22
+Microsoft.OLEDBDestination: 22
+
+
+
+Analyzing package: CCEM_EMRGNCY_CRISIS_Master
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 1
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: CCEM_Fact
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 11
+STOCK:SEQUENCE: 10
+Microsoft.Pipeline: 9
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.Lookup: 50
+Microsoft.OLEDBSource: 27
+Microsoft.MergeJoin: 18
+Microsoft.Sort: 16
+Microsoft.DerivedColumn: 11
+Microsoft.OLEDBDestination: 11
+Microsoft.DataConvert: 2
+
+
+
+Analyzing package: CCEM_Landing
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 64
+STOCK:SEQUENCE: 7
+Microsoft.ExecuteSQLTask: 7
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.ManagedComponentHost: 64
+Microsoft.DerivedColumn: 64
+Microsoft.OLEDBDestination: 64
+
+
+
+Analyzing package: CCEM_Landing_01NOV2023
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 63
+STOCK:SEQUENCE: 7
+Microsoft.ExecuteSQLTask: 7
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.DerivedColumn: 63
+Microsoft.ManagedComponentHost: 63
+Microsoft.OLEDBDestination: 63
+
+
+
+Analyzing package: CCEM_Landing_CASE_ONLY
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 64
+Microsoft.ExecuteSQLTask: 8
+STOCK:SEQUENCE: 7
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.DerivedColumn: 64
+Microsoft.ManagedComponentHost: 64
+Microsoft.OLEDBDestination: 64
+
+
+
+Analyzing package: CCEM_Landing_CASE_VERTI_SPLT
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 6
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.DerivedColumn: 6
+Microsoft.ManagedComponentHost: 6
+Microsoft.OLEDBDestination: 6
+
+
+
+Analyzing package: CCEM_Master
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 4
+Microsoft.ExecuteSQLTask: 1
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: CCEM_Staging
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 21
+Microsoft.ExecuteSQLTask: 6
+STOCK:SEQUENCE: 5
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.Lookup: 46
+Microsoft.OLEDBSource: 41
+Microsoft.OLEDBDestination: 21
+Microsoft.DataConvert: 4
+Microsoft.DerivedColumn: 3
+Microsoft.MergeJoin: 3
+Microsoft.Sort: 2
+Microsoft.UnionAll: 1
+
+
+
+Analyzing package: COSMOS_Dimension
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 35
+STOCK:SEQUENCE: 13
+Microsoft.Pipeline: 12
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 13
+Microsoft.OLEDBDestination: 12
+Microsoft.DataConvert: 6
+Microsoft.Lookup: 6
+Microsoft.DerivedColumn: 1
+Microsoft.MergeJoin: 1
+
+
+
+Analyzing package: COSMOS_Fact
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+STOCK:SEQUENCE: 3
+Microsoft.Pipeline: 3
+Microsoft.ExecuteSQLTask: 3
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.Lookup: 32
+Microsoft.OLEDBSource: 6
+Microsoft.DerivedColumn: 4
+Microsoft.MergeJoin: 3
+Microsoft.OLEDBDestination: 3
+Microsoft.ManagedComponentHost: 3
+
+
+
+Analyzing package: COSMOS_Landing
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 49
+STOCK:SEQUENCE: 4
+Microsoft.ExecuteSQLTask: 4
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 49
+Microsoft.OLEDBSource: 48
+Microsoft.DerivedColumn: 3
+Microsoft.FlatFileSource: 1
+
+
+
+Analyzing package: COSMOS_Master
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 5
+Microsoft.ExecutePackageTask: 4
+STOCK:SEQUENCE: 1
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: COSMOS_Staging
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 18
+STOCK:SEQUENCE: 3
+Microsoft.ExecuteSQLTask: 2
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 21
+Microsoft.OLEDBDestination: 18
+Microsoft.DataConvert: 4
+Microsoft.DerivedColumn: 2
+Microsoft.MergeJoin: 2
+Microsoft.Lookup: 1
+Microsoft.UnionAll: 1
+
+
+
+Analyzing package: FC_Dimension
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 11
+Microsoft.ExecuteSQLTask: 10
+STOCK:SEQUENCE: 6
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 39
+Microsoft.MergeJoin: 27
+Microsoft.DerivedColumn: 15
+Microsoft.OLEDBDestination: 12
+Microsoft.Sort: 12
+Microsoft.Multicast: 7
+Microsoft.ConditionalSplit: 3
+Microsoft.OLEDBCommand: 1
+Microsoft.DataConvert: 1
+Microsoft.Merge: 1
+Microsoft.UnionAll: 1
+Microsoft.Lookup: 1
+
+
+
+Analyzing package: FC_Master
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 2
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: FC_Staging
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 14
+Microsoft.ExecuteSQLTask: 3
+STOCK:SEQUENCE: 2
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 14
+Microsoft.OLEDBSource: 14
+Microsoft.DerivedColumn: 1
+
+
+
+Analyzing package: GC_CONTRACT_Dimension
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 33
+Microsoft.Pipeline: 20
+STOCK:SEQUENCE: 16
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 21
+Microsoft.OLEDBDestination: 19
+Microsoft.DataConvert: 8
+Microsoft.UnionAll: 1
+Microsoft.OLEDBCommand: 1
+
+
+
+Analyzing package: GC_CONTRACT_Fact
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 41
+Microsoft.ExecuteSQLTask: 30
+STOCK:SEQUENCE: 12
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 41
+Microsoft.OLEDBSource: 41
+Microsoft.Lookup: 7
+Microsoft.DataConvert: 5
+Microsoft.DerivedColumn: 1
+
+
+
+Analyzing package: GC_CONTRACT_REFERENCE
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 2
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 2
+Microsoft.OLEDBSource: 2
+Microsoft.DataConvert: 1
+
+
+
+Analyzing package: GC_CONTRACT_STAGING_30
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 69
+Microsoft.ExecuteSQLTask: 21
+STOCK:SEQUENCE: 12
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 117
+Microsoft.OLEDBDestination: 67
+Microsoft.MergeJoin: 48
+Microsoft.OLEDBCommand: 48
+Microsoft.ConditionalSplit: 47
+Microsoft.DataConvert: 1
+
+
+
+Analyzing package: GC_CONTRACT_Staging_10
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 65
+Microsoft.ExecuteSQLTask: 14
+STOCK:SEQUENCE: 13
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 65
+Microsoft.OLEDBSource: 65
+Microsoft.DataConvert: 2
+
+
+
+Analyzing package: GC_MASTER
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 16
+Microsoft.ExpressionTask: 3
+
+
+
+Analyzing package: GC_PROJECT_10_GCS_CNVRT_STAGING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 145
+Microsoft.ExecuteSQLTask: 27
+STOCK:SEQUENCE: 21
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 147
+Microsoft.OLEDBDestination: 144
+Microsoft.DerivedColumn: 3
+Microsoft.DataConvert: 3
+Microsoft.MergeJoin: 2
+Microsoft.OLEDBCommand: 1
+
+
+
+Analyzing package: GC_PROJECT_30_GC_STAGING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 146
+Microsoft.ExecuteSQLTask: 36
+STOCK:SEQUENCE: 22
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 260
+Microsoft.OLEDBDestination: 144
+Microsoft.MergeJoin: 114
+Microsoft.ConditionalSplit: 113
+Microsoft.OLEDBCommand: 113
+Microsoft.DataConvert: 4
+
+
+
+Analyzing package: GC_PROJECT_DIMENSION
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 22
+Microsoft.Pipeline: 21
+STOCK:SEQUENCE: 4
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 32
+Microsoft.OLEDBDestination: 18
+Microsoft.DataConvert: 11
+Microsoft.UnionAll: 3
+Microsoft.OLEDBCommand: 3
+Microsoft.DerivedColumn: 1
+
+
+
+Analyzing package: GC_PROJECT_FACT
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 79
+Microsoft.ExecuteSQLTask: 33
+STOCK:SEQUENCE: 16
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 195
+Microsoft.MergeJoin: 115
+Microsoft.Sort: 64
+Microsoft.OLEDBDestination: 55
+Microsoft.DerivedColumn: 29
+Microsoft.OLEDBCommand: 24
+Microsoft.DataConvert: 20
+Microsoft.UnionAll: 1
+
+
+
+Analyzing package: GC_PROJECT_MAPPING_TABLES
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 18
+STOCK:SEQUENCE: 3
+Microsoft.ExecuteSQLTask: 3
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 18
+Microsoft.OLEDBSource: 18
+
+
+
+Analyzing package: GC_PROJECT_REFERENCE
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 7
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 8
+Microsoft.OLEDBDestination: 7
+Microsoft.DataConvert: 4
+Microsoft.ConditionalSplit: 1
+Microsoft.MergeJoin: 1
+
+
+
+Analyzing package: GC_PROJECT_UPDATE
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 4
+Microsoft.ExecuteSQLTask: 3
+STOCK:SEQUENCE: 2
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 6
+Microsoft.OLEDBCommand: 3
+Microsoft.DerivedColumn: 1
+Microsoft.Sort: 1
+Microsoft.UnionAll: 1
+Microsoft.OLEDBDestination: 1
+
+
+
+Analyzing package: GC_SSIS_FINANCE_10_GCS_CNVRT_STAGING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 37
+STOCK:SEQUENCE: 8
+Microsoft.ExecuteSQLTask: 8
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 37
+Microsoft.OLEDBSource: 37
+Microsoft.DerivedColumn: 5
+
+
+
+Analyzing package: GC_SSIS_FINANCE_30_GC_STAGING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 44
+Microsoft.ExecuteSQLTask: 18
+STOCK:SEQUENCE: 16
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 78
+Microsoft.OLEDBDestination: 44
+Microsoft.MergeJoin: 34
+Microsoft.ConditionalSplit: 32
+Microsoft.OLEDBCommand: 32
+Microsoft.DerivedColumn: 5
+Microsoft.Sort: 2
+
+
+
+Analyzing package: GC_SSIS_FINANCE_DIMENSION
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 34
+Microsoft.Pipeline: 22
+STOCK:SEQUENCE: 9
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 29
+Microsoft.OLEDBDestination: 22
+Microsoft.DerivedColumn: 9
+Microsoft.MergeJoin: 7
+Microsoft.Sort: 2
+
+
+
+Analyzing package: GC_SSIS_FINANCE_FACT
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 21
+Microsoft.Pipeline: 19
+STOCK:SEQUENCE: 7
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 27
+Microsoft.OLEDBDestination: 19
+Microsoft.MergeJoin: 8
+Microsoft.DerivedColumn: 1
+
+
+
+Analyzing package: IMS_DIMENSION
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 47
+Microsoft.Pipeline: 28
+STOCK:SEQUENCE: 26
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 34
+Microsoft.DerivedColumn: 28
+Microsoft.OLEDBDestination: 28
+Microsoft.MergeJoin: 6
+Microsoft.Sort: 3
+Microsoft.Lookup: 1
+Microsoft.DataConvert: 1
+
+
+
+Analyzing package: IMS_FACT
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 11
+Microsoft.Pipeline: 11
+STOCK:SEQUENCE: 10
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.Lookup: 164
+Microsoft.DerivedColumn: 96
+Microsoft.OLEDBDestination: 19
+Microsoft.OLEDBSource: 14
+Microsoft.DataConvert: 13
+Microsoft.UnionAll: 7
+Microsoft.MergeJoin: 2
+
+
+
+Analyzing package: IMS_MASTER
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 3
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: IMS_STAGING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 104
+Microsoft.ExecuteSQLTask: 15
+STOCK:SEQUENCE: 14
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 120
+Microsoft.OLEDBDestination: 104
+Microsoft.DerivedColumn: 97
+Microsoft.MergeJoin: 8
+Microsoft.UnionAll: 8
+Microsoft.DataConvert: 7
+Microsoft.Lookup: 7
+Microsoft.Sort: 3
+Microsoft.ConditionalSplit: 3
+Microsoft.Aggregate: 1
+
+
+
+Analyzing package: NEICS_Dimension
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 76
+Microsoft.ExecuteSQLTask: 6
+STOCK:SEQUENCE: 2
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 76
+Microsoft.OLEDBDestination: 76
+Microsoft.DataConvert: 3
+
+
+
+Analyzing package: NEICS_Fact
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 22
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 22
+Microsoft.OLEDBDestination: 22
+
+
+
+Analyzing package: NEICS_Master
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 4
+Microsoft.ExecuteSQLTask: 4
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: NEICS_ODS_NEICS
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 4
+Microsoft.Pipeline: 4
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 316
+Microsoft.OLEDBSource: 316
+
+
+
+Analyzing package: NEICS_Staging
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 82
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 82
+Microsoft.OLEDBDestination: 82
+Microsoft.DataConvert: 5
+
+
+
+Analyzing package: PATHFINDER_Dimension
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 6
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 6
+Microsoft.OLEDBSource: 6
+
+
+
+Analyzing package: PATHFINDER_Master
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 3
+Microsoft.ExecuteSQLTask: 1
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: PATHFINDER_ODS
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 2
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.Pipeline: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 16
+Microsoft.OLEDBSource: 16
+
+
+
+Analyzing package: PATHFINDER_Staging
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 6
+Microsoft.ExpressionTask: 1
+STOCK:SEQUENCE: 1
+Microsoft.ExecuteSQLTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 6
+Microsoft.OLEDBDestination: 6
+
+
+
+Analyzing package: SWS_DATA_HUB_00_GCS_LOAD
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 65
+Microsoft.ExecuteSQLTask: 11
+STOCK:SEQUENCE: 10
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 65
+Microsoft.OLEDBSource: 65
+Microsoft.Lookup: 9
+Microsoft.DerivedColumn: 7
+Microsoft.DataConvert: 5
+Microsoft.ExcelSource: 1
+Microsoft.MergeJoin: 1
+
+
+
+Analyzing package: SWS_DATA_HUB_01
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 78
+Microsoft.ExecuteSQLTask: 33
+STOCK:SEQUENCE: 22
+Microsoft.ExecutePackageTask: 2
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 88
+Microsoft.OLEDBDestination: 78
+Microsoft.DerivedColumn: 19
+Microsoft.DataConvert: 11
+Microsoft.Lookup: 9
+Microsoft.MergeJoin: 4
+Microsoft.UnionAll: 1
+
+
+
+Analyzing package: SWS_DATA_HUB_02_PROJECT_WBS
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 68
+STOCK:SEQUENCE: 11
+Microsoft.ExecuteSQLTask: 10
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 79
+Microsoft.OLEDBDestination: 72
+Microsoft.Lookup: 33
+Microsoft.DerivedColumn: 13
+Microsoft.MergeJoin: 9
+Microsoft.Sort: 8
+Microsoft.DataConvert: 4
+Microsoft.ConditionalSplit: 4
+Microsoft.UnionAll: 2
+
+
+
+Analyzing package: SWS_DATA_HUB_03_PROJECT_BUDGET
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 75
+Microsoft.Pipeline: 58
+STOCK:SEQUENCE: 16
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 58
+Microsoft.OLEDBSource: 58
+Microsoft.Lookup: 39
+Microsoft.DerivedColumn: 37
+Microsoft.DataConvert: 17
+
+
+
+Analyzing package: SWS_GC_MASTER
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecutePackageTask: 5
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: SWS_MART_GC_COMMON_DIMS
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+
+
+
+Analyzing package: SWS_MART_GC_DIMS
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 25
+Microsoft.Pipeline: 20
+STOCK:SEQUENCE: 15
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 20
+Microsoft.OLEDBDestination: 17
+Microsoft.DataConvert: 4
+Microsoft.DerivedColumn: 3
+Microsoft.OLEDBCommand: 3
+Microsoft.Lookup: 2
+
+
+
+Analyzing package: SWS_MART_GC_FACTS
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 15
+Microsoft.Pipeline: 13
+STOCK:SEQUENCE: 7
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.Lookup: 33
+Microsoft.OLEDBSource: 15
+Microsoft.OLEDBDestination: 13
+Microsoft.DerivedColumn: 7
+Microsoft.DataConvert: 2
+Microsoft.MergeJoin: 2
+
+
+
+Analyzing package: SWS_ODS_SAP
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+
+
+
+Analyzing package: SWS_VALIDATE_01
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 5
+STOCK:SEQUENCE: 3
+Microsoft.ExecuteSQLTask: 3
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 5
+Microsoft.OLEDBSource: 5
+
+
+
+Analyzing package: TRADE_DIMENSION
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 129
+STOCK:SEQUENCE: 45
+Microsoft.Pipeline: 45
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 46
+Microsoft.OLEDBDestination: 45
+Microsoft.DerivedColumn: 18
+Microsoft.DataConvert: 3
+Microsoft.Lookup: 1
+Microsoft.ConditionalSplit: 1
+Microsoft.MergeJoin: 1
+Microsoft.Multicast: 1
+Microsoft.UnionAll: 1
+
+
+
+Analyzing package: TRADE_FACT
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 27
+STOCK:SEQUENCE: 25
+Microsoft.Pipeline: 25
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.DerivedColumn: 186
+Microsoft.Lookup: 159
+Microsoft.OLEDBDestination: 49
+Microsoft.DataConvert: 42
+Microsoft.OLEDBSource: 25
+Microsoft.UnionAll: 18
+
+
+
+Analyzing package: TRADE_LANDING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 67
+STOCK:SEQUENCE: 9
+Microsoft.ExecuteSQLTask: 9
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBDestination: 67
+Microsoft.OLEDBSource: 67
+Microsoft.DerivedColumn: 12
+Microsoft.DataConvert: 9
+
+
+
+Analyzing package: TRADE_MASTER
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.ExecuteSQLTask: 12
+Microsoft.ExecutePackageTask: 4
+STOCK:SEQUENCE: 1
+Microsoft.ExpressionTask: 1
+
+
+
+Analyzing package: TRADE_STAGING
+============================================================
+
+Unique Task Count by ExecutableType (by DTSID, excluding EventHandlers and precedence_constraints):
+------------------------------------------------------------
+Microsoft.Pipeline: 64
+STOCK:SEQUENCE: 13
+Microsoft.ExecuteSQLTask: 13
+Microsoft.ExpressionTask: 1
+
+Component Count by componentClassID (in unique Microsoft.Pipeline tasks):
+------------------------------------------------------------
+Microsoft.OLEDBSource: 74
+Microsoft.OLEDBDestination: 64
+Microsoft.DataConvert: 17
+Microsoft.DerivedColumn: 12
+Microsoft.MergeJoin: 5
+Microsoft.Sort: 4
+Microsoft.Lookup: 2
+Microsoft.UnionAll: 1
+Microsoft.ConditionalSplit: 1
+
+
